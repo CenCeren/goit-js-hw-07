@@ -37,3 +37,13 @@ body {
   height: 100%;
   object-fit: cover;
 }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.box {
+  display: inline-block;
+  background-color: #ccc;
+}
